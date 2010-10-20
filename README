@@ -8,7 +8,7 @@ Click the "not buggy" button. This will send the setImageURL: method to one of t
 The result is that that EGOImageView correctly shows the image.
 
 Click the "buggy" button. This will initiate an asynchronous HTTP request to http://www.google.com
-using the EGOHTTPRequest class. We set the delegate of this class so we can be notified when the request
-is finished. When this happens, the method requestDidFinish: will be called. In this method we call
-the setImageURL: method in the other EGOImageView. The result is that this EGOImageView never shows
-the image although it should.
+using the EGOHTTPRequest class. We set the delegate of this class to "self" so we can be notified
+when the request is finished. When this happens, the method requestDidFinish: is called. Inside
+this method we send the setImageURL: method to the other EGOImageView. The result is that this
+EGOImageView never shows the image as it should.
