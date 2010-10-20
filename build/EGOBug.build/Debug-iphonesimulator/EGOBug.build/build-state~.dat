@@ -1,850 +1,0 @@
-TEGOBug
-v7
-r0
-t309275626.300879
-cCheck dependencies
-cProcessInfoPlistFile /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/Info.plist EGOBug-Info.plist
-cCompileXIB /Users/wack-a-mole/Programming/iPhone/EGOBug/MainWindow.xib
-cCompileXIB /Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBugViewController.xib
-cCpResource build/Debug-iphonesimulator/EGOBug.app/config ../EGOImageLoading/EGOCache/.git/config
-cCpResource build/Debug-iphonesimulator/EGOBug.app/description ../EGOImageLoading/EGOCache/.git/description
-cCpResource build/Debug-iphonesimulator/EGOBug.app/HEAD ../EGOImageLoading/EGOCache/.git/HEAD
-cCpResource build/Debug-iphonesimulator/EGOBug.app/HEAD ../EGOImageLoading/EGOCache/.git/logs/HEAD
-cCpResource build/Debug-iphonesimulator/EGOBug.app/HEAD ../EGOImageLoading/EGOCache/.git/refs/remotes/origin/HEAD
-cCpResource build/Debug-iphonesimulator/EGOBug.app/applypatch-msg.sample ../EGOImageLoading/EGOCache/.git/hooks/applypatch-msg.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/commit-msg.sample ../EGOImageLoading/EGOCache/.git/hooks/commit-msg.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/post-commit.sample ../EGOImageLoading/EGOCache/.git/hooks/post-commit.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/post-receive.sample ../EGOImageLoading/EGOCache/.git/hooks/post-receive.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/post-update.sample ../EGOImageLoading/EGOCache/.git/hooks/post-update.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/pre-applypatch.sample ../EGOImageLoading/EGOCache/.git/hooks/pre-applypatch.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/pre-commit.sample ../EGOImageLoading/EGOCache/.git/hooks/pre-commit.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/pre-rebase.sample ../EGOImageLoading/EGOCache/.git/hooks/pre-rebase.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/prepare-commit-msg.sample ../EGOImageLoading/EGOCache/.git/hooks/prepare-commit-msg.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/update.sample ../EGOImageLoading/EGOCache/.git/hooks/update.sample
-cCpResource build/Debug-iphonesimulator/EGOBug.app/index ../EGOImageLoading/EGOCache/.git/index
-cCpResource build/Debug-iphonesimulator/EGOBug.app/exclude ../EGOImageLoading/EGOCache/.git/info/exclude
-cCpResource build/Debug-iphonesimulator/EGOBug.app/master ../EGOImageLoading/EGOCache/.git/logs/refs/heads/master
-cCpResource build/Debug-iphonesimulator/EGOBug.app/master ../EGOImageLoading/EGOCache/.git/refs/heads/master
-cCpResource build/Debug-iphonesimulator/EGOBug.app/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx ../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx
-cCpResource build/Debug-iphonesimulator/EGOBug.app/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack ../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack
-cCpResource build/Debug-iphonesimulator/EGOBug.app/packed-refs ../EGOImageLoading/EGOCache/.git/packed-refs
-cCpResource build/Debug-iphonesimulator/EGOBug.app/placeholder@2x.png placeholder@2x.png
-cProcessPCH /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch.gch EGOBug_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/main.o /Users/wack-a-mole/Programming/iPhone/EGOBug/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugAppDelegate.o /Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugViewController.o /Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOCache.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/EGOCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageButton.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageButton/EGOImageButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoadConnection.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoadConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoader.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageView.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageView/EGOImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug normal i386
-cGenerateDSYMFile /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app.dSYM /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug
-cTouch /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
-c000000004C6C30170000000000000110
-t1282158615
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A4DB60000000000295900
-t1280986550
-s2709760
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A4DB0000000000029D580
-t1280986544
-s2741632
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A4DA10000000000001466
-t1280986529
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C6241ED00000000000009CD
-t1281507821
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C6242840000000001E228C0
-t1281507972
-s31598784
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/HEAD
-c000000004CAB30630000000000000017
-t1286287459
-s23
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/config
-c000000004CAB3063000000000000011A
-t1286287459
-s282
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/description
-c000000004CAB30620000000000000049
-t1286287458
-s73
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/applypatch-msg.sample
-c000000004CAB306200000000000001C4
-t1286287458
-s452
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/commit-msg.sample
-c000000004CAB3062000000000000037E
-t1286287458
-s894
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-commit.sample
-c000000004CAB306200000000000000A0
-t1286287458
-s160
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-receive.sample
-c000000004CAB30620000000000000228
-t1286287458
-s552
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-update.sample
-c000000004CAB306200000000000000BD
-t1286287458
-s189
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-applypatch.sample
-c000000004CAB3062000000000000018E
-t1286287458
-s398
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-commit.sample
-c000000004CAB30620000000000000628
-t1286287458
-s1576
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-rebase.sample
-c000000004CAB3062000000000000134E
-t1286287458
-s4942
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/prepare-commit-msg.sample
-c000000004CAB306200000000000004C3
-t1286287458
-s1219
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/update.sample
-c000000004CAB30620000000000000E19
-t1286287458
-s3609
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/index
-c000000004CAB306300000000000000C0
-t1286287459
-s192
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/info/exclude
-c000000004CAB306200000000000000F0
-t1286287458
-s240
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/logs/HEAD
-c000000004CAB306300000000000000B8
-t1286287459
-s184
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/logs/refs/heads/master
-c000000004CAB306300000000000000B8
-t1286287459
-s184
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx
-c000000004CAB30630000000000000ECC
-t1286287459
-s3788
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack
-c000000004CAB30630000000000003E26
-t1286287459
-s15910
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/packed-refs
-c000000004CAB3063000000000000005E
-t1286287459
-s94
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/refs/heads/master
-c000000004CAB30630000000000000029
-t1286287459
-s41
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/refs/remotes/origin/HEAD
-c000000004CAB30630000000000000020
-t1286287459
-s32
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/EGOCache.m
-c000000004CAB306300000000000026B4
-t1286287459
-s9908
-i"EGOCache.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageButton/EGOImageButton.m
-c000000004CAB2FBA0000000000000DCC
-t1286287290
-s3532
-i"EGOImageButton.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoadConnection.m
-c000000004CAB2FBA0000000000000C67
-t1286287290
-s3175
-i"EGOImageLoadConnection.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoader.h
-c000000004CAB2FBA0000000000000928
-t1286287290
-s2344
-i<Foundation/Foundation.h>
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoader.m
-c000000004CAB2FBA0000000000001C7A
-t1286287290
-s7290
-i"EGOImageLoader.h"
-i"EGOImageLoadConnection.h"
-i"EGOCache.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageView/EGOImageView.h
-c000000004CAB2FBA00000000000007DA
-t1286287290
-s2010
-i<UIKit/UIKit.h>
-i"EGOImageLoader.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageView/EGOImageView.m
-c000000004CAB2FBA0000000000000D3F
-t1286287290
-s3391
-i"EGOImageView.h"
-i"EGOImageLoader.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugAppDelegate.h
-c000000004CBEF1A900000000000001DC
-t1287582121
-s476
-i<UIKit/UIKit.h>
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugAppDelegate.m
-c000000004CBEF1A90000000000000A89
-t1287582121
-s2697
-i"EGOBugAppDelegate.h"
-i"EGOBugViewController.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugViewController.h
-c000000004CBEF3CE00000000000001F9
-t1287582670
-s505
-i<UIKit/UIKit.h>
-i"EGOImageView.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugViewController.m
-c000000004CBEF3F80000000000000828
-t1287582712
-s2088
-i"EGOBugViewController.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBugViewController.xib
-c000000004CBEF2400000000000004A9F
-t1287582272
-s19103
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBug_Prefix.pch
-c000000004CBEF1A900000000000000B5
-t1287582121
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/MainWindow.xib
-c000000004CBEF1A90000000000004E1D
-t1287582121
-s19997
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app
-t1287582826
-s918
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app.dSYM
-t1287582826
-s102
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug
-t1287582826
-s65440
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBugViewController.nib
-t1287582823
-s2494
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/HEAD
-t1287582823
-s23
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/Info.plist
-t1287582823
-s587
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/MainWindow.nib
-t1287582823
-s1679
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/PkgInfo
-t1287582823
-s8
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/applypatch-msg.sample
-t1287582823
-s452
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/commit-msg.sample
-t1287582823
-s894
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/config
-t1287582823
-s282
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/description
-t1287582823
-s73
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/exclude
-t1287582823
-s240
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/index
-t1287582823
-s192
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/master
-t1287582823
-s41
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx
-t1287582823
-s3788
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack
-t1287582823
-s15910
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/packed-refs
-t1287582823
-s94
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/placeholder@2x.png
-t1287582823
-s7497
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/post-commit.sample
-t1287582823
-s160
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/post-receive.sample
-t1287582823
-s552
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/post-update.sample
-t1287582823
-s189
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/pre-applypatch.sample
-t1287582823
-s398
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/pre-commit.sample
-t1287582823
-s1576
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/pre-rebase.sample
-t1287582823
-s4942
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/prepare-commit-msg.sample
-t1287582823
-s1219
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/update.sample
-t1287582823
-s3609
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBug.LinkFileList
-c000000004CBEF467000000000000043F
-t1287582823
-s1087
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugAppDelegate.o
-t1287582825
-s48176
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugViewController.o
-t1287582825
-s41568
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOCache.o
-t1287582825
-s38332
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageButton.o
-t1287582825
-s46696
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoadConnection.o
-t1287582825
-s20552
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoader.o
-t1287582825
-s29972
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageView.o
-t1287582825
-s46200
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/main.o
-t1287582825
-s6316
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/main.m
-c000000004CBEF1A9000000000000016B
-t1287582121
-s363
-i<UIKit/UIKit.h>
-
-N/Users/wack-a-mole/Programming/iPhone/EGOBug/placeholder@2x.png
-c000000004CAC50930000000000001D49
-t1286361235
-s7497
-
-N/Users/wack-a-mole/Programming/iPhone/EGOImageLoading/EGOCache/EGOCache.h
-c000000004CAB30630000000000000B3A
-t1286287459
-s2874
-i<Foundation/Foundation.h>
-
-N/Users/wack-a-mole/Programming/iPhone/EGOImageLoading/EGOImageButton/EGOImageButton.h
-c000000004CAB2FBA00000000000007F1
-t1286287290
-s2033
-i<UIKit/UIKit.h>
-i"EGOImageLoader.h"
-
-N/Users/wack-a-mole/Programming/iPhone/EGOImageLoading/EGOImageLoader/EGOImageLoadConnection.h
-c000000004CAB2FBA00000000000008AD
-t1286287290
-s2221
-i<Foundation/Foundation.h>
-
-N/Users/wack-a-mole/Programming/iPhone/EGOImageLoading/EGOImageLoader/EGOImageLoader.h
-c000000004CAB2FBA0000000000000928
-t1286287290
-s2344
-i<Foundation/Foundation.h>
-
-N/Users/wack-a-mole/Programming/iPhone/EGOImageLoading/EGOImageView/EGOImageView.h
-c000000004CAB2FBA00000000000007DA
-t1286287290
-s2010
-i<UIKit/UIKit.h>
-i"EGOImageLoader.h"
-
-N/var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch.gch
-t1287582824
-s15211536
-
-NEGOBug-Info.plist
-c000000004CBEF1A9000000000000038D
-t1287582121
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies309275623#309275623#0(434"[WARN]Warning: Multiple build commands for output file /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/HEAD[WARN]Warning: Multiple build commands for output file /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/master[WARN]Warning: Multiple build commands for output file /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/HEAD3(22@137"Warning: Multiple build commands for output file /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/HEAD309275623#18446744073709551615#0#0(1@0"0(22@139"Warning: Multiple build commands for output file /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/master309275623#18446744073709551615#0#0(1@0"0(22@137"Warning: Multiple build commands for output file /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/HEAD309275623#18446744073709551615#0#0(1@0"0(0#1#0"8626429888#0"0#
-
-CCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugAppDelegate.o /Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275625.234973
-e309275625.429692
-r1
-xCompileC
-xbuild/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugAppDelegate.o
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugAppDelegate.m309275625#309275625#0(0"0(0#0#72"/Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugAppDelegate.m8626407520#2274"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -include /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugAppDelegate.m -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugAppDelegate.o0#
-
-CCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugViewController.o /Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275625.364876
-e309275625.533908
-r1
-xCompileC
-xbuild/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugViewController.o
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugViewController.m309275625#309275625#0(0"0(0#0#75"/Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugViewController.m8626419840#2280"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -include /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/Classes/EGOBugViewController.m -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBugViewController.o0#
-
-CCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOCache.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/EGOCache.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275625.429794
-e309275625.652417
-r1
-xCompileC
-xbuild/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOCache.o
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/EGOCache.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/EGOCache.m309275625#309275625#0(0"0(0#0#83"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/EGOCache.m8616699200#2276"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -include /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/EGOCache.m -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOCache.o0#
-
-CCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageButton.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageButton/EGOImageButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275625.534021
-e309275625.725475
-r1
-xCompileC
-xbuild/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageButton.o
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageButton/EGOImageButton.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageButton/EGOImageButton.m309275625#309275625#0(0"0(0#0#95"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageButton/EGOImageButton.m8626594592#2294"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -include /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageButton/EGOImageButton.m -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageButton.o0#
-
-CCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoadConnection.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoadConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275625.652522
-e309275625.810302
-r1
-xCompileC
-xbuild/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoadConnection.o
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoadConnection.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@111"Compile /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoadConnection.m309275625#309275625#0(0"0(0#0#103"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoadConnection.m8603737024#2310"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -include /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoadConnection.m -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoadConnection.o0#
-
-CCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoader.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275625.725578
-e309275625.885355
-r1
-xCompileC
-xbuild/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoader.o
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoader.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoader.m309275625#309275625#0(0"0(0#0#95"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoader.m8626981024#2294"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -include /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageLoader/EGOImageLoader.m -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageLoader.o0#
-
-CCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageView.o /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageView/EGOImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275625.810411
-e309275625.968583
-r1
-xCompileC
-xbuild/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageView.o
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageView/EGOImageView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageView/EGOImageView.m309275625#309275625#0(0"0(0#0#91"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageView/EGOImageView.m8623724480#2288"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -include /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOImageView/EGOImageView.m -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOImageView.o0#
-
-CCompileC build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/main.o /Users/wack-a-mole/Programming/iPhone/EGOBug/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275625.214468
-e309275625.364769
-r1
-xCompileC
-xbuild/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/main.o
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/wack-a-mole/Programming/iPhone/EGOBug/main.m309275625#309275625#0(0"0(0#0#51"/Users/wack-a-mole/Programming/iPhone/EGOBug/main.m8626544640#2240"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -include /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/main.m -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBugViewController.xib
-s309275623.042846
-e309275623.904922
-r1
-xCompileXIB
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBugViewController.xib
-lSLF07#2@35"CompileXIB EGOBugViewController.xib309275623#309275623#0(0"0(0#0#69"/Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBugViewController.xib8620129280#887"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBugViewController.nib /Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBugViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/wack-a-mole/Programming/iPhone/EGOBug/MainWindow.xib
-s309275623.041935
-e309275623.598595
-r1
-xCompileXIB
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib309275623#309275623#0(0"0(0#0#59"/Users/wack-a-mole/Programming/iPhone/EGOBug/MainWindow.xib8622116160#867"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/MainWindow.nib /Users/wack-a-mole/Programming/iPhone/EGOBug/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/HEAD ../EGOImageLoading/EGOCache/.git/HEAD
-s309275623.600670
-e309275623.632966
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/HEAD
-x../EGOImageLoading/EGOCache/.git/HEAD
-lSLF07#2@42"Copy ../EGOImageLoading/EGOCache/.git/HEAD309275623#309275623#0(0"0(0#0#82"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/HEAD8623180544#778"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/HEAD /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/HEAD ../EGOImageLoading/EGOCache/.git/logs/HEAD
-s309275623.601501
-e309275623.633074
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/HEAD
-x../EGOImageLoading/EGOCache/.git/logs/HEAD
-lSLF07#2@47"Copy ../EGOImageLoading/EGOCache/.git/logs/HEAD309275623#309275623#0(0"0(0#0#87"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/logs/HEAD8622902528#783"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/logs/HEAD /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/HEAD ../EGOImageLoading/EGOCache/.git/refs/remotes/origin/HEAD
-s309275623.602345
-e309275623.633181
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/HEAD
-x../EGOImageLoading/EGOCache/.git/refs/remotes/origin/HEAD
-lSLF07#2@62"Copy ../EGOImageLoading/EGOCache/.git/refs/remotes/origin/HEAD309275623#309275623#0(0"0(0#0#102"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/refs/remotes/origin/HEAD8622610464#798"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/refs/remotes/origin/HEAD /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/applypatch-msg.sample ../EGOImageLoading/EGOCache/.git/hooks/applypatch-msg.sample
-s309275623.603969
-e309275623.776150
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/applypatch-msg.sample
-x../EGOImageLoading/EGOCache/.git/hooks/applypatch-msg.sample
-lSLF07#2@65"Copy ../EGOImageLoading/EGOCache/.git/hooks/applypatch-msg.sample309275623#309275623#0(0"0(0#0#105"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/applypatch-msg.sample8622326496#801"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/applypatch-msg.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/commit-msg.sample ../EGOImageLoading/EGOCache/.git/hooks/commit-msg.sample
-s309275623.606542
-e309275623.633296
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/commit-msg.sample
-x../EGOImageLoading/EGOCache/.git/hooks/commit-msg.sample
-lSLF07#2@61"Copy ../EGOImageLoading/EGOCache/.git/hooks/commit-msg.sample309275623#309275623#0(0"0(0#0#101"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/commit-msg.sample8621921792#797"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/commit-msg.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/config ../EGOImageLoading/EGOCache/.git/config
-s309275623.598703
-e309275623.632721
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/config
-x../EGOImageLoading/EGOCache/.git/config
-lSLF07#2@44"Copy ../EGOImageLoading/EGOCache/.git/config309275623#309275623#0(0"0(0#0#84"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/config8623589280#780"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/config /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/description ../EGOImageLoading/EGOCache/.git/description
-s309275623.599791
-e309275623.632853
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/description
-x../EGOImageLoading/EGOCache/.git/description
-lSLF07#2@49"Copy ../EGOImageLoading/EGOCache/.git/description309275623#309275623#0(0"0(0#0#89"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/description8623403520#785"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/description /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/exclude ../EGOImageLoading/EGOCache/.git/info/exclude
-s309275623.783636
-e309275623.905035
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/exclude
-x../EGOImageLoading/EGOCache/.git/info/exclude
-lSLF07#2@50"Copy ../EGOImageLoading/EGOCache/.git/info/exclude309275623#309275623#0(0"0(0#0#90"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/info/exclude8626409984#786"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/info/exclude /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/index ../EGOImageLoading/EGOCache/.git/index
-s309275623.776439
-e309275623.904779
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/index
-x../EGOImageLoading/EGOCache/.git/index
-lSLF07#2@43"Copy ../EGOImageLoading/EGOCache/.git/index309275623#309275623#0(0"0(0#0#83"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/index8626554816#779"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/index /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/master ../EGOImageLoading/EGOCache/.git/logs/refs/heads/master
-s309275623.800672
-e309275623.905151
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/master
-x../EGOImageLoading/EGOCache/.git/logs/refs/heads/master
-lSLF07#2@60"Copy ../EGOImageLoading/EGOCache/.git/logs/refs/heads/master309275623#309275623#0(0"0(0#0#100"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/logs/refs/heads/master8625980992#796"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/logs/refs/heads/master /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/master ../EGOImageLoading/EGOCache/.git/refs/heads/master
-s309275623.838431
-e309275623.905261
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/master
-x../EGOImageLoading/EGOCache/.git/refs/heads/master
-lSLF07#2@55"Copy ../EGOImageLoading/EGOCache/.git/refs/heads/master309275623#309275623#0(0"0(0#0#95"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/refs/heads/master8624509696#791"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/refs/heads/master /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx ../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx
-s309275623.857455
-e309275623.905487
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx
-x../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx
-lSLF07#2@100"Copy ../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx309275623#309275623#0(0"0(0#0#140"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx8624375616#836"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack ../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack
-s309275623.863591
-e309275623.919443
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack
-x../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack
-lSLF07#2@101"Copy ../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack309275623#309275623#0(0"0(0#0#141"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack8624242624#837"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/objects/pack/pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/packed-refs ../EGOImageLoading/EGOCache/.git/packed-refs
-s309275623.878547
-e309275623.939778
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/packed-refs
-x../EGOImageLoading/EGOCache/.git/packed-refs
-lSLF07#2@49"Copy ../EGOImageLoading/EGOCache/.git/packed-refs309275623#309275623#0(0"0(0#0#89"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/packed-refs8624074048#785"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/packed-refs /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/placeholder@2x.png placeholder@2x.png
-s309275623.905678
-e309275623.953846
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/placeholder@2x.png
-xplaceholder@2x.png
-lSLF07#2@23"Copy placeholder@2x.png309275623#309275623#0(0"0(0#0#63"/Users/wack-a-mole/Programming/iPhone/EGOBug/placeholder@2x.png8623377408#759"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/placeholder@2x.png /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/post-commit.sample ../EGOImageLoading/EGOCache/.git/hooks/post-commit.sample
-s309275623.608664
-e309275623.776259
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/post-commit.sample
-x../EGOImageLoading/EGOCache/.git/hooks/post-commit.sample
-lSLF07#2@62"Copy ../EGOImageLoading/EGOCache/.git/hooks/post-commit.sample309275623#309275623#0(0"0(0#0#102"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-commit.sample8619936576#798"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-commit.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/post-receive.sample ../EGOImageLoading/EGOCache/.git/hooks/post-receive.sample
-s309275623.610325
-e309275623.776366
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/post-receive.sample
-x../EGOImageLoading/EGOCache/.git/hooks/post-receive.sample
-lSLF07#2@63"Copy ../EGOImageLoading/EGOCache/.git/hooks/post-receive.sample309275623#309275623#0(0"0(0#0#103"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-receive.sample8619252544#799"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-receive.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/post-update.sample ../EGOImageLoading/EGOCache/.git/hooks/post-update.sample
-s309275623.633375
-e309275623.775687
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/post-update.sample
-x../EGOImageLoading/EGOCache/.git/hooks/post-update.sample
-lSLF07#2@62"Copy ../EGOImageLoading/EGOCache/.git/hooks/post-update.sample309275623#309275623#0(0"0(0#0#102"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-update.sample8618033984#798"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/post-update.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/pre-applypatch.sample ../EGOImageLoading/EGOCache/.git/hooks/pre-applypatch.sample
-s309275623.670817
-e309275623.775815
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/pre-applypatch.sample
-x../EGOImageLoading/EGOCache/.git/hooks/pre-applypatch.sample
-lSLF07#2@65"Copy ../EGOImageLoading/EGOCache/.git/hooks/pre-applypatch.sample309275623#309275623#0(0"0(0#0#105"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-applypatch.sample8617099744#801"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-applypatch.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/pre-commit.sample ../EGOImageLoading/EGOCache/.git/hooks/pre-commit.sample
-s309275623.688927
-e309275623.775930
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/pre-commit.sample
-x../EGOImageLoading/EGOCache/.git/hooks/pre-commit.sample
-lSLF07#2@61"Copy ../EGOImageLoading/EGOCache/.git/hooks/pre-commit.sample309275623#309275623#0(0"0(0#0#101"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-commit.sample8613690528#797"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-commit.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/pre-rebase.sample ../EGOImageLoading/EGOCache/.git/hooks/pre-rebase.sample
-s309275623.708846
-e309275623.776041
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/pre-rebase.sample
-x../EGOImageLoading/EGOCache/.git/hooks/pre-rebase.sample
-lSLF07#2@61"Copy ../EGOImageLoading/EGOCache/.git/hooks/pre-rebase.sample309275623#309275623#0(0"0(0#0#101"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-rebase.sample8606131072#797"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/pre-rebase.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/prepare-commit-msg.sample ../EGOImageLoading/EGOCache/.git/hooks/prepare-commit-msg.sample
-s309275623.728304
-e309275623.905373
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/prepare-commit-msg.sample
-x../EGOImageLoading/EGOCache/.git/hooks/prepare-commit-msg.sample
-lSLF07#2@69"Copy ../EGOImageLoading/EGOCache/.git/hooks/prepare-commit-msg.sample309275623#309275623#0(0"0(0#0#109"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/prepare-commit-msg.sample8605875680#805"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/prepare-commit-msg.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CCpResource build/Debug-iphonesimulator/EGOBug.app/update.sample ../EGOImageLoading/EGOCache/.git/hooks/update.sample
-s309275623.770785
-e309275623.905600
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/EGOBug.app/update.sample
-x../EGOImageLoading/EGOCache/.git/hooks/update.sample
-lSLF07#2@57"Copy ../EGOImageLoading/EGOCache/.git/hooks/update.sample309275623#309275623#0(0"0(0#0#97"/Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/update.sample8627043936#793"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/wack-a-mole/Programming/iPhone/EGOBug/../EGOImageLoading/EGOCache/.git/hooks/update.sample /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
-CGenerateDSYMFile /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app.dSYM /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug
-s309275626.141271
-e309275626.292732
-r1
-xGenerateDSYMFile
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app.dSYM
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/EGOBug.app.dSYM build/Debug-iphonesimulator/EGOBug.app/EGOBug309275626#309275626#0(0"0(0#0#90"/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug8599336544#678"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/usr/bin/dsymutil /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app.dSYM0#
-
-CLd /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug normal i386
-s309275625.968683
-e309275626.141174
-r1
-xLd
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug
-xnormal
-xi386
-lSLF07#2@95"Link /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug309275625#309275626#0(0"0(0#0#0"8604037280#1205"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -filelist /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/Objects-normal/i386/EGOBug.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/EGOBug0#
-
-CProcessInfoPlistFile /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/Info.plist EGOBug-Info.plist
-s309275623.038346
-e309275623.041853
-r1
-xProcessInfoPlistFile
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/Info.plist
-xEGOBug-Info.plist
-lSLF07#2@25"Process EGOBug-Info.plist309275623#309275623#0(0"0(0#0#62"/Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBug-Info.plist8624319008#774"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    builtin-infoPlistUtility EGOBug-Info.plist -genpkginfo /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app/Info.plist0#
-
-CProcessPCH /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch.gch EGOBug_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s309275623.953979
-e309275625.214284
-r1
-xProcessPCH
-x/var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch.gch
-xEGOBug_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile EGOBug_Prefix.pch309275623#309275625#0(0"0(0#0#62"/Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBug_Prefix.pch8616890208#2127"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-generated-files.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-own-target-headers.hmap -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-all-target-headers.hmap -iquote /Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/EGOBug-project-headers.hmap -F/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/include -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources/i386 -I/Users/wack-a-mole/Programming/iPhone/EGOBug/build/EGOBug.build/Debug-iphonesimulator/EGOBug.build/DerivedSources -c /Users/wack-a-mole/Programming/iPhone/EGOBug/EGOBug_Prefix.pch -o /var/folders/qD/qDDolEZZHuGyfrbXv40wT++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/EGOBug_Prefix-bipejlniwvctvzdspowzbtpbduyg/EGOBug_Prefix.pch.gch0#
-
-CTouch /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app
-s309275626.292819
-e309275626.300829
-r1
-xTouch
-x/Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app
-lSLF07#2@89"Touch /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app309275626#309275626#0(0"0(0#0#0"8623159200#569"    cd /Users/wack-a-mole/Programming/iPhone/EGOBug    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/wack-a-mole/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/wack-a-mole/.rvm/bin:~/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"    /usr/bin/touch -c /Users/wack-a-mole/Programming/iPhone/EGOBug/build/Debug-iphonesimulator/EGOBug.app0#
-
