@@ -29,12 +29,8 @@
 
 -(void) requestDidFinish:(EGOHTTPRequest *)aRequest {
 	NSLog(@"Request to Google finished with code %d. Now loading the image...", aRequest.responseStatusCode);
-	[self performSelectorOnMainThread:@selector(updateBuggyImageWithURL:) withObject:[NSURL URLWithString:@"http://static.gowalla.com/kinds/1739-3700293ea3dcb1478289217052a588ab-100.png"] waitUntilDone:NO];
+	[buggyImageView performSelectorOnMainThread:@selector(setImageURL:) withObject:[NSURL URLWithString:@"http://static.gowalla.com/kinds/1739-3700293ea3dcb1478289217052a588ab-100.png"] waitUntilDone:NO];
 	NSLog(@"And it will load.");
-}
-
--(void) updateBuggyImageWithURL:(NSURL *)anURL {
-	[buggyImageView setImageURL:anURL];
 }
 
 - (void)dealloc {
