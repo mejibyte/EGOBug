@@ -15,6 +15,9 @@
 	[self.view addSubview:notBuggyImageView];
 }
 
+-(IBAction) notBuggyClick {
+	[notBuggyImageView setImageURL:[NSURL URLWithString:@"http://static.gowalla.com/kinds/1677-493f38f571bdde3cc08f1f90b20a2373-100.png"]];
+}
 
 -(IBAction) buggyClick {
 	EGOHTTPRequest * request = [[EGOHTTPRequest alloc] initWithURL:[NSURL URLWithString:@"http://www.google.com"]];
@@ -24,13 +27,9 @@
 	[request release];
 }
 
--(IBAction) notBuggyClick {
-	[notBuggyImageView setImageURL:[NSURL URLWithString:@"http://static.gowalla.com/kinds/1677-493f38f571bdde3cc08f1f90b20a2373-100.png"]];
-}
-
 -(void) requestDidFinish:(EGOHTTPRequest *)aRequest {
 	NSLog(@"Request to Google finished with code %d. Now loading the image...", aRequest.responseStatusCode);
-	[notBuggyImageView setImageURL:[NSURL URLWithString:@"http://static.gowalla.com/kinds/1677-493f38f571bdde3cc08f1f90b20a2373-100.png"]];
+	[buggyImageView setImageURL:[NSURL URLWithString:@"http://static.gowalla.com/kinds/1739-3700293ea3dcb1478289217052a588ab-100.png"]];
 	NSLog(@"And it will never load.");
 }
 
