@@ -15,11 +15,33 @@
 		2899E5220DE3E06400AC0155 /* EGOBugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* EGOBugViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* EGOBugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* EGOBugViewController.m */; };
-		3244361A126F2957001C8546 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 324435F8126F2957001C8546 /* EGOCache.m */; };
-		3244361B126F2957001C8546 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 324435FB126F2957001C8546 /* EGOImageButton.m */; };
-		3244361C126F2957001C8546 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 324435FE126F2957001C8546 /* EGOImageLoadConnection.m */; };
-		3244361D126F2957001C8546 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 32443600126F2957001C8546 /* EGOImageLoader.m */; };
-		3244361E126F2957001C8546 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32443603126F2957001C8546 /* EGOImageView.m */; };
+		3213D0511276DE62003E0A7D /* config in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0211276DE62003E0A7D /* config */; };
+		3213D0521276DE62003E0A7D /* description in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0221276DE62003E0A7D /* description */; };
+		3213D0531276DE62003E0A7D /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0231276DE62003E0A7D /* HEAD */; };
+		3213D0541276DE62003E0A7D /* applypatch-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0251276DE62003E0A7D /* applypatch-msg.sample */; };
+		3213D0551276DE62003E0A7D /* commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0261276DE62003E0A7D /* commit-msg.sample */; };
+		3213D0561276DE62003E0A7D /* post-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0271276DE62003E0A7D /* post-commit.sample */; };
+		3213D0571276DE62003E0A7D /* post-receive.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0281276DE62003E0A7D /* post-receive.sample */; };
+		3213D0581276DE62003E0A7D /* post-update.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0291276DE62003E0A7D /* post-update.sample */; };
+		3213D0591276DE62003E0A7D /* pre-applypatch.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D02A1276DE62003E0A7D /* pre-applypatch.sample */; };
+		3213D05A1276DE62003E0A7D /* pre-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D02B1276DE62003E0A7D /* pre-commit.sample */; };
+		3213D05B1276DE62003E0A7D /* pre-rebase.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D02C1276DE62003E0A7D /* pre-rebase.sample */; };
+		3213D05C1276DE62003E0A7D /* prepare-commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D02D1276DE62003E0A7D /* prepare-commit-msg.sample */; };
+		3213D05D1276DE62003E0A7D /* update.sample in Resources */ = {isa = PBXBuildFile; fileRef = 3213D02E1276DE62003E0A7D /* update.sample */; };
+		3213D05E1276DE62003E0A7D /* index in Resources */ = {isa = PBXBuildFile; fileRef = 3213D02F1276DE62003E0A7D /* index */; };
+		3213D05F1276DE62003E0A7D /* exclude in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0311276DE62003E0A7D /* exclude */; };
+		3213D0601276DE62003E0A7D /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0331276DE62003E0A7D /* HEAD */; };
+		3213D0611276DE62003E0A7D /* master in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0361276DE62003E0A7D /* master */; };
+		3213D0621276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx in Resources */ = {isa = PBXBuildFile; fileRef = 3213D03A1276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx */; };
+		3213D0631276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack in Resources */ = {isa = PBXBuildFile; fileRef = 3213D03B1276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack */; };
+		3213D0641276DE62003E0A7D /* packed-refs in Resources */ = {isa = PBXBuildFile; fileRef = 3213D03C1276DE62003E0A7D /* packed-refs */; };
+		3213D0651276DE62003E0A7D /* master in Resources */ = {isa = PBXBuildFile; fileRef = 3213D03F1276DE62003E0A7D /* master */; };
+		3213D0661276DE62003E0A7D /* HEAD in Resources */ = {isa = PBXBuildFile; fileRef = 3213D0421276DE62003E0A7D /* HEAD */; };
+		3213D0671276DE62003E0A7D /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213D0451276DE62003E0A7D /* EGOCache.m */; };
+		3213D0681276DE62003E0A7D /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213D0481276DE62003E0A7D /* EGOImageButton.m */; };
+		3213D0691276DE62003E0A7D /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213D04B1276DE62003E0A7D /* EGOImageLoadConnection.m */; };
+		3213D06A1276DE62003E0A7D /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213D04D1276DE62003E0A7D /* EGOImageLoader.m */; };
+		3213D06B1276DE62003E0A7D /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213D0501276DE62003E0A7D /* EGOImageView.m */; };
 		32443621126F2A64001C8546 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32443620126F2A64001C8546 /* placeholder@2x.png */; };
 		3244365C126F2CF7001C8546 /* EGOHTTPFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32443659126F2CF7001C8546 /* EGOHTTPFormRequest.m */; };
 		3244365D126F2CF7001C8546 /* EGOHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3244365B126F2CF7001C8546 /* EGOHTTPRequest.m */; };
@@ -38,16 +60,38 @@
 		28D7ACF60DDB3853001CB0EB /* EGOBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOBugViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* EGOBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOBugViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		324435F7126F2957001C8546 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
-		324435F8126F2957001C8546 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
-		324435FA126F2957001C8546 /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
-		324435FB126F2957001C8546 /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
-		324435FD126F2957001C8546 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
-		324435FE126F2957001C8546 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
-		324435FF126F2957001C8546 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
-		32443600126F2957001C8546 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
-		32443602126F2957001C8546 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
-		32443603126F2957001C8546 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		3213D0211276DE62003E0A7D /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
+		3213D0221276DE62003E0A7D /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description; sourceTree = "<group>"; };
+		3213D0231276DE62003E0A7D /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		3213D0251276DE62003E0A7D /* applypatch-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "applypatch-msg.sample"; sourceTree = "<group>"; };
+		3213D0261276DE62003E0A7D /* commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "commit-msg.sample"; sourceTree = "<group>"; };
+		3213D0271276DE62003E0A7D /* post-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-commit.sample"; sourceTree = "<group>"; };
+		3213D0281276DE62003E0A7D /* post-receive.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-receive.sample"; sourceTree = "<group>"; };
+		3213D0291276DE62003E0A7D /* post-update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-update.sample"; sourceTree = "<group>"; };
+		3213D02A1276DE62003E0A7D /* pre-applypatch.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-applypatch.sample"; sourceTree = "<group>"; };
+		3213D02B1276DE62003E0A7D /* pre-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-commit.sample"; sourceTree = "<group>"; };
+		3213D02C1276DE62003E0A7D /* pre-rebase.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-rebase.sample"; sourceTree = "<group>"; };
+		3213D02D1276DE62003E0A7D /* prepare-commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "prepare-commit-msg.sample"; sourceTree = "<group>"; };
+		3213D02E1276DE62003E0A7D /* update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update.sample; sourceTree = "<group>"; };
+		3213D02F1276DE62003E0A7D /* index */ = {isa = PBXFileReference; lastKnownFileType = file; path = index; sourceTree = "<group>"; };
+		3213D0311276DE62003E0A7D /* exclude */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exclude; sourceTree = "<group>"; };
+		3213D0331276DE62003E0A7D /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		3213D0361276DE62003E0A7D /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		3213D03A1276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx"; sourceTree = "<group>"; };
+		3213D03B1276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack"; sourceTree = "<group>"; };
+		3213D03C1276DE62003E0A7D /* packed-refs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "packed-refs"; sourceTree = "<group>"; };
+		3213D03F1276DE62003E0A7D /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		3213D0421276DE62003E0A7D /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		3213D0441276DE62003E0A7D /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		3213D0451276DE62003E0A7D /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		3213D0471276DE62003E0A7D /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
+		3213D0481276DE62003E0A7D /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
+		3213D04A1276DE62003E0A7D /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		3213D04B1276DE62003E0A7D /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		3213D04C1276DE62003E0A7D /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		3213D04D1276DE62003E0A7D /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		3213D04F1276DE62003E0A7D /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		3213D0501276DE62003E0A7D /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
 		32443620126F2A64001C8546 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
 		32443658126F2CF7001C8546 /* EGOHTTPFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOHTTPFormRequest.h; sourceTree = "<group>"; };
 		32443659126F2CF7001C8546 /* EGOHTTPFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOHTTPFormRequest.m; sourceTree = "<group>"; };
@@ -135,59 +179,197 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3213D01E1276DE62003E0A7D /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				3213D01F1276DE62003E0A7D /* .git */,
+				3213D0441276DE62003E0A7D /* EGOCache.h */,
+				3213D0451276DE62003E0A7D /* EGOCache.m */,
+			);
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		3213D01F1276DE62003E0A7D /* .git */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0201276DE62003E0A7D /* branches */,
+				3213D0211276DE62003E0A7D /* config */,
+				3213D0221276DE62003E0A7D /* description */,
+				3213D0231276DE62003E0A7D /* HEAD */,
+				3213D0241276DE62003E0A7D /* hooks */,
+				3213D02F1276DE62003E0A7D /* index */,
+				3213D0301276DE62003E0A7D /* info */,
+				3213D0321276DE62003E0A7D /* logs */,
+				3213D0371276DE62003E0A7D /* objects */,
+				3213D03C1276DE62003E0A7D /* packed-refs */,
+				3213D03D1276DE62003E0A7D /* refs */,
+			);
+			path = .git;
+			sourceTree = "<group>";
+		};
+		3213D0201276DE62003E0A7D /* branches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = branches;
+			sourceTree = "<group>";
+		};
+		3213D0241276DE62003E0A7D /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0251276DE62003E0A7D /* applypatch-msg.sample */,
+				3213D0261276DE62003E0A7D /* commit-msg.sample */,
+				3213D0271276DE62003E0A7D /* post-commit.sample */,
+				3213D0281276DE62003E0A7D /* post-receive.sample */,
+				3213D0291276DE62003E0A7D /* post-update.sample */,
+				3213D02A1276DE62003E0A7D /* pre-applypatch.sample */,
+				3213D02B1276DE62003E0A7D /* pre-commit.sample */,
+				3213D02C1276DE62003E0A7D /* pre-rebase.sample */,
+				3213D02D1276DE62003E0A7D /* prepare-commit-msg.sample */,
+				3213D02E1276DE62003E0A7D /* update.sample */,
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		3213D0301276DE62003E0A7D /* info */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0311276DE62003E0A7D /* exclude */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		3213D0321276DE62003E0A7D /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0331276DE62003E0A7D /* HEAD */,
+				3213D0341276DE62003E0A7D /* refs */,
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		3213D0341276DE62003E0A7D /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0351276DE62003E0A7D /* heads */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		3213D0351276DE62003E0A7D /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0361276DE62003E0A7D /* master */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		3213D0371276DE62003E0A7D /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0381276DE62003E0A7D /* info */,
+				3213D0391276DE62003E0A7D /* pack */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		3213D0381276DE62003E0A7D /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		3213D0391276DE62003E0A7D /* pack */ = {
+			isa = PBXGroup;
+			children = (
+				3213D03A1276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx */,
+				3213D03B1276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack */,
+			);
+			path = pack;
+			sourceTree = "<group>";
+		};
+		3213D03D1276DE62003E0A7D /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				3213D03E1276DE62003E0A7D /* heads */,
+				3213D0401276DE62003E0A7D /* remotes */,
+				3213D0431276DE62003E0A7D /* tags */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		3213D03E1276DE62003E0A7D /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				3213D03F1276DE62003E0A7D /* master */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		3213D0401276DE62003E0A7D /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0411276DE62003E0A7D /* origin */,
+			);
+			path = remotes;
+			sourceTree = "<group>";
+		};
+		3213D0411276DE62003E0A7D /* origin */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0421276DE62003E0A7D /* HEAD */,
+			);
+			path = origin;
+			sourceTree = "<group>";
+		};
+		3213D0431276DE62003E0A7D /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tags;
+			sourceTree = "<group>";
+		};
+		3213D0461276DE62003E0A7D /* EGOImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				3213D0471276DE62003E0A7D /* EGOImageButton.h */,
+				3213D0481276DE62003E0A7D /* EGOImageButton.m */,
+			);
+			path = EGOImageButton;
+			sourceTree = "<group>";
+		};
+		3213D0491276DE62003E0A7D /* EGOImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				3213D04A1276DE62003E0A7D /* EGOImageLoadConnection.h */,
+				3213D04B1276DE62003E0A7D /* EGOImageLoadConnection.m */,
+				3213D04C1276DE62003E0A7D /* EGOImageLoader.h */,
+				3213D04D1276DE62003E0A7D /* EGOImageLoader.m */,
+			);
+			path = EGOImageLoader;
+			sourceTree = "<group>";
+		};
+		3213D04E1276DE62003E0A7D /* EGOImageView */ = {
+			isa = PBXGroup;
+			children = (
+				3213D04F1276DE62003E0A7D /* EGOImageView.h */,
+				3213D0501276DE62003E0A7D /* EGOImageView.m */,
+			);
+			path = EGOImageView;
+			sourceTree = "<group>";
+		};
 		324435D0126F293E001C8546 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				3213D01E1276DE62003E0A7D /* EGOCache */,
+				3213D0461276DE62003E0A7D /* EGOImageButton */,
+				3213D0491276DE62003E0A7D /* EGOImageLoader */,
+				3213D04E1276DE62003E0A7D /* EGOImageView */,
 				32443657126F2CF7001C8546 /* EGOHTTPRequest */,
-				324435D1126F2956001C8546 /* EGOCache */,
-				324435F9126F2957001C8546 /* EGOImageButton */,
-				324435FC126F2957001C8546 /* EGOImageLoader */,
-				32443601126F2957001C8546 /* EGOImageView */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
-		};
-		324435D1126F2956001C8546 /* EGOCache */ = {
-			isa = PBXGroup;
-			children = (
-				324435F7126F2957001C8546 /* EGOCache.h */,
-				324435F8126F2957001C8546 /* EGOCache.m */,
-			);
-			name = EGOCache;
-			path = ../EGOImageLoading/EGOCache;
-			sourceTree = SOURCE_ROOT;
-		};
-		324435F9126F2957001C8546 /* EGOImageButton */ = {
-			isa = PBXGroup;
-			children = (
-				324435FA126F2957001C8546 /* EGOImageButton.h */,
-				324435FB126F2957001C8546 /* EGOImageButton.m */,
-			);
-			name = EGOImageButton;
-			path = ../EGOImageLoading/EGOImageButton;
-			sourceTree = SOURCE_ROOT;
-		};
-		324435FC126F2957001C8546 /* EGOImageLoader */ = {
-			isa = PBXGroup;
-			children = (
-				324435FD126F2957001C8546 /* EGOImageLoadConnection.h */,
-				324435FE126F2957001C8546 /* EGOImageLoadConnection.m */,
-				324435FF126F2957001C8546 /* EGOImageLoader.h */,
-				32443600126F2957001C8546 /* EGOImageLoader.m */,
-			);
-			name = EGOImageLoader;
-			path = ../EGOImageLoading/EGOImageLoader;
-			sourceTree = SOURCE_ROOT;
-		};
-		32443601126F2957001C8546 /* EGOImageView */ = {
-			isa = PBXGroup;
-			children = (
-				32443602126F2957001C8546 /* EGOImageView.h */,
-				32443603126F2957001C8546 /* EGOImageView.m */,
-			);
-			name = EGOImageView;
-			path = ../EGOImageLoading/EGOImageView;
-			sourceTree = SOURCE_ROOT;
 		};
 		32443657126F2CF7001C8546 /* EGOHTTPRequest */ = {
 			isa = PBXGroup;
@@ -253,6 +435,28 @@
 				2899E5220DE3E06400AC0155 /* EGOBugViewController.xib in Resources */,
 				32443621126F2A64001C8546 /* placeholder@2x.png in Resources */,
 				324436CE126F313A001C8546 /* README in Resources */,
+				3213D0511276DE62003E0A7D /* config in Resources */,
+				3213D0521276DE62003E0A7D /* description in Resources */,
+				3213D0531276DE62003E0A7D /* HEAD in Resources */,
+				3213D0541276DE62003E0A7D /* applypatch-msg.sample in Resources */,
+				3213D0551276DE62003E0A7D /* commit-msg.sample in Resources */,
+				3213D0561276DE62003E0A7D /* post-commit.sample in Resources */,
+				3213D0571276DE62003E0A7D /* post-receive.sample in Resources */,
+				3213D0581276DE62003E0A7D /* post-update.sample in Resources */,
+				3213D0591276DE62003E0A7D /* pre-applypatch.sample in Resources */,
+				3213D05A1276DE62003E0A7D /* pre-commit.sample in Resources */,
+				3213D05B1276DE62003E0A7D /* pre-rebase.sample in Resources */,
+				3213D05C1276DE62003E0A7D /* prepare-commit-msg.sample in Resources */,
+				3213D05D1276DE62003E0A7D /* update.sample in Resources */,
+				3213D05E1276DE62003E0A7D /* index in Resources */,
+				3213D05F1276DE62003E0A7D /* exclude in Resources */,
+				3213D0601276DE62003E0A7D /* HEAD in Resources */,
+				3213D0611276DE62003E0A7D /* master in Resources */,
+				3213D0621276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.idx in Resources */,
+				3213D0631276DE62003E0A7D /* pack-7602e33a2fa3c38676bed14cc4822bc7c785b9db.pack in Resources */,
+				3213D0641276DE62003E0A7D /* packed-refs in Resources */,
+				3213D0651276DE62003E0A7D /* master in Resources */,
+				3213D0661276DE62003E0A7D /* HEAD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,13 +470,13 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* EGOBugAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* EGOBugViewController.m in Sources */,
-				3244361A126F2957001C8546 /* EGOCache.m in Sources */,
-				3244361B126F2957001C8546 /* EGOImageButton.m in Sources */,
-				3244361C126F2957001C8546 /* EGOImageLoadConnection.m in Sources */,
-				3244361D126F2957001C8546 /* EGOImageLoader.m in Sources */,
-				3244361E126F2957001C8546 /* EGOImageView.m in Sources */,
 				3244365C126F2CF7001C8546 /* EGOHTTPFormRequest.m in Sources */,
 				3244365D126F2CF7001C8546 /* EGOHTTPRequest.m in Sources */,
+				3213D0671276DE62003E0A7D /* EGOCache.m in Sources */,
+				3213D0681276DE62003E0A7D /* EGOImageButton.m in Sources */,
+				3213D0691276DE62003E0A7D /* EGOImageLoadConnection.m in Sources */,
+				3213D06A1276DE62003E0A7D /* EGOImageLoader.m in Sources */,
+				3213D06B1276DE62003E0A7D /* EGOImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
