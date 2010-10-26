@@ -1,3 +1,5 @@
+UPDATE: The bug has been fixed. Check http://github.com/enormego/EGOImageLoading/issues/4 for details.
+
 This is little bug that appears when using EGOHTTPRequest and EGOImageView together.
 
 Explanation:
